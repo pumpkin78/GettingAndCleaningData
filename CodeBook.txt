@@ -1,0 +1,18 @@
+Code book for the data in the file "tidy_dataset"
+
+A) Variable description:
+There are 81 variables
+
+1) "Subject": Each value identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
+2) "Activity_Name": there are 6 values of activities:
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+3) The rest of 79 variables:
+Each variable has the same names of the variables defined in the Samsung package: "UCI HAR Dataset/features.txt". 
+But each measurement is the average of each variable for each activity and each subject. 
